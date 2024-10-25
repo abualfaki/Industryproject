@@ -1,109 +1,51 @@
-# Cookiecutter Data Science
+# Project Scope
 
-_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._
+## Website Traffic Analysis 
+    Description: Analyze web traffic data (Google Analytics or other sources) to understand user behavior, traffic sources, and engagement on different pages of the website.
+    Skills Involved: Google Analytics, Excel, Data Visualization (Tableau, Power BI).
+    Deliverables: A comprehensive web performance report with actionable insights to improve user engagement and conversion rates.
 
-**Cookiecutter Data Science (CCDS)** is a tool for setting up a data science project template that incorporates best practices. To learn more about CCDS's philosophy, visit the [project homepage](https://cookiecutter-data-science.drivendata.org/).
 
-> ℹ️ Cookiecutter Data Science v2 has changed from v1. It now requires installing the new cookiecutter-data-science Python package, which extends the functionality of the [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) templating utility. Use the provided `ccds` command-line program instead of `cookiecutter`.
+## Gym Customer Churn Analysis for Movatti Athletic
+    Objective -  Analyze which demographic/segment of gym members are most likely to churn 
+    Tools - Excel, SQL, Power BI for data Vis
+    Outcome - Provide marketing and promotions team insights to create programs or incentives to keep customers for longer
 
-## Installation
+## Investing & Building Wealth - 
+    Objective: Find out the best-performing asset classes over time adjusted for inflation
+    Tools - Excel, SQL (Data easily accessible on tradingview.com)
+    Outcome: End user will have an interactive dashboard to compare and contrast returns of best-performing assets over time.
 
-Cookiecutter Data Science v2 requires Python 3.8+. Since this is a cross-project utility application, we recommend installing it with [pipx](https://pypa.github.io/pipx/). Installation command options:
 
-```bash
-# With pipx from PyPI (recommended)
-pipx install cookiecutter-data-science
+## Gym Customer Churn Analysis DATA
 
-# With pip from PyPI
-pip install cookiecutter-data-science
+### Primary Dataset - Model Fitness Gym Churn Analysis
+    'https://www.kaggle.com/code/ellanihill/customer-churn-analysis' 
+    
+    Data Gathering Process
+     1) Data was gathered by searching for 'Customer Churn' in Kaggle
+     2) Filtered for dataset with the most upvote and this came out on top
 
-# With conda from conda-forge (coming soon)
-# conda install cookiecutter-data-science -c conda-forge
-```
 
-## Starting a new project
 
-To start a new project, run:
+    ## References
+        Github Project for Model Fitness Gym Churn Analysis - 'https://github.com/aimee0317/gym_customer_churn_analysis'
 
-```bash
-ccds
-```
+        Churn prediction model for Effective customer retention - Research Paper
 
-### The resulting directory structure
+        How to improve retention rate at your gym  - Article
 
-The directory structure of your new project will look something like this (depending on the settings that you choose):
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         {{ cookiecutter.module_name }} and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── {{ cookiecutter.module_name }}   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes {{ cookiecutter.module_name }} a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations   
-```
+## Loan defualter Dataset for Analyzinf Loan Defualts
 
-## Using v1
+## Dataset - "Lending Club Loan 💰 Defaulters 🏃‍♂ Prediction"
+    "https://www.kaggle.com/code/faressayah/lending-club-loan-defaulters-prediction/input?select=loan.csv"
 
-If you want to use the old v1 project template, you need to have either the cookiecutter-data-science package or cookiecutter package installed. Then, use either command-line program with the `-c v1` option:
+    Data Gathering Process
+    1) Data was gathered by searching "Loan Lending Club" on Kaggle.com
+    2) Filtered for data that is most recet Loan Lending CLub stopped publishing updated data to the public.
 
-```bash
-ccds https://github.com/drivendataorg/cookiecutter-data-science -c v1
-# or equivalently
-cookiecutter https://github.com/drivendataorg/cookiecutter-data-science -c v1
-```
-
-## Contributing
-
-We welcome contributions! [See the docs for guidelines](https://cookiecutter-data-science.drivendata.org/contributing/).
-
-### Installing development requirements
-
-```bash
-pip install -r dev-requirements.txt
-```
-
-### Running the tests
-
-```bash
-pytest tests
-```
+    ## References
+        Notebook in R -  "https://www.kaggle.com/code/wordsforthewise/eda-in-r-arggghh' 
+        Notebook in Python - "https://www.kaggle.com/code/wordsforthewise/eda-with-python"
+        Notebook - https://www.kaggle.com/code/faressayah/lending-club-loan-defaulters-prediction/notebook 
